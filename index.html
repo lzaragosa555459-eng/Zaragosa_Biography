@@ -1,15 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LIZ ZARAGOSA</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(142, 181, 225);
+            margin: 0;
+            padding: 0;
+
+            
+        }
+        .container{
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0px 5px 5px black;
+        }
+        h1{
+            text-align: center;
+            color: black;
+        }
+        h2{
+            
+            color: rgba(21, 63, 159, 0.678);
+            border-left: 5px solid rgb(87, 105, 164);
+            margin-left: 5px;
+        }
+        #h2_1{
+            text-align: center;
+            border-left: none;
+        }
+        h4, h5{
+            color: rgb(125, 125, 125);
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+           
+        }
+        p{
+            line-height: 1.6;
+            color: black;
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        ul, ol{
+            margin-left: 20px;
+        }
+        li{
+            margin-bottom: 10px;
+        }
+        hr{
+            margin: 20px 0;
+            border: none;
+            height: 1px;
+            background: black;
+            
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        a:hover{
+            color: rgb(50, 50, 50);
+            text-decoration: underline;
+        }
+        em{
+            color: darkblue;
+            font-style: italic;
+        }
+        .github-container{
+            display: flex;
+            align-items: center;      
+            gap: 10px; 
+        }
+    </style>
+
 </head>
 <body>  
     <div class="container">
         <!--Tags-->
-    <h1>LIZ ZARAGOSA'_BIOGRAPHY</h1>
-    <h2>A short introduction to myself</h2>
+    <h1>LIZ ZARAGOSA: BIOGRAPHY</h1>
+    <h2 id="h2_1">A short introduction to myself</h2>
 
     </div>
 
@@ -18,13 +105,16 @@
 
 
     <!--About me-->
+<hr>
     <div>
         <h1>About me</h1>
-        <p>My name is Liz Zaragosa. I am currently a 2nd year college student. I am currently Information Technology in the University of Mindanao.</p>
+        <p>My name is Liz Zaragosa, and I am a second-year Information Technology student at the University of Mindanao. I have a growing interest in technology and how it can be used to solve real-world problems. 
+        Through my studies, I am learning essential IT concepts and continuously working to improve my skills. I aspire to build a successful career in the IT industry and am committed to both academic and personal growth.</p>
     </div>
-
+</hr>
 
     <!--Daily Routine-->
+<hr>
     <div>
         <h2>Daily Routine</h2>
         <ol>
@@ -39,18 +129,25 @@
             <li>10:00 PM – Relax and go to sleep</li>
         </ol>
     </div>
-
+</hr>
     <!--End quote-->
-    <div>
-        <h2>quote ~ </h2>
-        <i>"History is Today" - liz</i>
-    </div>
 
+<hr>
+    <div>
+        <h2>Quote ~ </h2>
+        <i style="margin-left: 20px;">"History is Today" - liz</i>
+    </div>
+</hr>
+
+<hr>
     <!--Contact-->
     <div>
         <h2>Contant Information</h2>
-        <p>You can find my GitHub here:</p>
-        <a href="https://github.com/lzaragosa555459-eng">GitHub Profile</a>
+        <div class="github-container"><p>You can find my GitHub here:</p>
+        <a href="https://github.com/lzaragosa555459-eng">GitHub Profile</a></div>
+        
     </div>
+
+</hr>
 </body>
 </html>
